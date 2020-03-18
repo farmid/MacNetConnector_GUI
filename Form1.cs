@@ -48,11 +48,20 @@ namespace MacNetConnector_GUI
             modules = new McNetModule[MaxModules];
             panels[0] = flowLayoutPanel1;
             panels[1] = flowLayoutPanel2;
-            
+            panels[2] = flowLayoutPanel3;
+            panels[3] = flowLayoutPanel4;
+            panels[4] = flowLayoutPanel5;
+
             ips[0] = "192.168.5.3";
             ips[1] = "192.168.5.4";
+            ips[2] = "192.168.5.5";
+            ips[3] = "192.168.5.6";
+            ips[4] = "192.168.5.7";
             tbIP1.Text = ips[0];
             tbIP2.Text = ips[1];
+            tbIP3.Text = ips[2];
+            tbIP4.Text = ips[3];
+            tbIP5.Text = ips[4];
 
             for (int i = 0; i < MaxModules; i++) {
                 modules[i] = new McNetModule();
@@ -64,7 +73,7 @@ namespace MacNetConnector_GUI
        
         private void btnStartAll_Click(object sender, EventArgs e)
         {
-            for (int i=0;i<2; i++)
+            for (int i=0;i< MaxModules; i++)
             {
                 // don't connect if module's IP is not set
                 if ( !String.IsNullOrEmpty(modules[i].ip))
@@ -89,7 +98,7 @@ namespace MacNetConnector_GUI
             doneInfo = false;
             while (!doneInfo)
             {
-                for (int i=0;i<2;i++)
+                for (int i=0;i< MaxModules; i++)
                 {
                     if (modules[i].Connected)
                     {
@@ -107,7 +116,7 @@ namespace MacNetConnector_GUI
             doneData = false;
             while (!doneData)
             {
-                for (int i = 0; i < 2; i++)
+                for (int i = 0; i < MaxModules; i++)
                 {
                     if (modules[i].Connected)
                     {

@@ -46,19 +46,19 @@
             this.rtbConsole = new System.Windows.Forms.RichTextBox();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbIP3 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbIP4 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbIP5 = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -218,7 +218,7 @@
             // flowLayoutPanel4
             // 
             this.flowLayoutPanel4.Controls.Add(this.label3);
-            this.flowLayoutPanel4.Controls.Add(this.textBox1);
+            this.flowLayoutPanel4.Controls.Add(this.tbIP3);
             this.flowLayoutPanel4.Controls.Add(this.button4);
             this.flowLayoutPanel4.Controls.Add(this.button5);
             this.flowLayoutPanel4.Controls.Add(this.button6);
@@ -236,12 +236,12 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Tower 3";
             // 
-            // textBox1
+            // tbIP3
             // 
-            this.textBox1.Location = new System.Drawing.Point(55, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 20);
-            this.textBox1.TabIndex = 6;
+            this.tbIP3.Location = new System.Drawing.Point(55, 3);
+            this.tbIP3.Name = "tbIP3";
+            this.tbIP3.Size = new System.Drawing.Size(121, 20);
+            this.tbIP3.TabIndex = 6;
             // 
             // button4
             // 
@@ -273,7 +273,7 @@
             // flowLayoutPanel5
             // 
             this.flowLayoutPanel5.Controls.Add(this.label4);
-            this.flowLayoutPanel5.Controls.Add(this.textBox2);
+            this.flowLayoutPanel5.Controls.Add(this.tbIP4);
             this.flowLayoutPanel5.Controls.Add(this.button7);
             this.flowLayoutPanel5.Controls.Add(this.button8);
             this.flowLayoutPanel5.Controls.Add(this.button9);
@@ -291,12 +291,12 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Tower 4";
             // 
-            // textBox2
+            // tbIP4
             // 
-            this.textBox2.Location = new System.Drawing.Point(55, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 20);
-            this.textBox2.TabIndex = 6;
+            this.tbIP4.Location = new System.Drawing.Point(55, 3);
+            this.tbIP4.Name = "tbIP4";
+            this.tbIP4.Size = new System.Drawing.Size(121, 20);
+            this.tbIP4.TabIndex = 6;
             // 
             // button7
             // 
@@ -328,7 +328,7 @@
             // flowLayoutPanel6
             // 
             this.flowLayoutPanel6.Controls.Add(this.label5);
-            this.flowLayoutPanel6.Controls.Add(this.textBox3);
+            this.flowLayoutPanel6.Controls.Add(this.tbIP5);
             this.flowLayoutPanel6.Controls.Add(this.button10);
             this.flowLayoutPanel6.Controls.Add(this.button11);
             this.flowLayoutPanel6.Controls.Add(this.button12);
@@ -346,12 +346,12 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Tower 5";
             // 
-            // textBox3
+            // tbIP5
             // 
-            this.textBox3.Location = new System.Drawing.Point(55, 3);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 20);
-            this.textBox3.TabIndex = 6;
+            this.tbIP5.Location = new System.Drawing.Point(55, 3);
+            this.tbIP5.Name = "tbIP5";
+            this.tbIP5.Size = new System.Drawing.Size(121, 20);
+            this.tbIP5.TabIndex = 6;
             // 
             // button10
             // 
@@ -429,19 +429,19 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbIP3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbIP4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbIP5;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
