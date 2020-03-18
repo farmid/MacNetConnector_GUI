@@ -1,0 +1,12 @@
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\bin\Debug\MacNetConnector_GUI.exe.config
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\bin\Debug\MacNetConnector_GUI.exe
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\bin\Debug\MacNetConnector_GUI.pdb
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\obj\Debug\MacNetConnector_GUI.csprojAssemblyReference.cache
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\obj\Debug\MacNetConnector_GUI.Form1.resources
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\obj\Debug\MacNetConnector_GUI.Properties.Resources.resources
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\obj\Debug\MacNetConnector_GUI.csproj.GenerateResource.cache
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\obj\Debug\MacNetConnector_GUI.exe
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\obj\Debug\MacNetConnector_GUI.pdb
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\bin\Debug\Newtonsoft.Json.dll
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\bin\Debug\Newtonsoft.Json.xml
+C:\projects\MacNetConnector-master\MacNetConnector_GUI\obj\Debug\MacNetConnector_GUI.csproj.CopyComplete
