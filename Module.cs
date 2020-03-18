@@ -57,9 +57,11 @@ namespace MacNetConnector_GUI
                 Connected = true;
                 i = skt.Send(Encoding.UTF8.GetBytes(LogInMsg));
                 Display("sent login request");
+                i = skt.Receive(receiveBuffer);
+                string msg = Encoding.UTF8.GetString(receiveBuffer);
+                Display(msg);
 
                 // \todo check response
-                //i = skt.Receive(receiveBuffer);
             }
             catch(Exception ex)
             {
@@ -86,6 +88,10 @@ namespace MacNetConnector_GUI
                     // Get reply from the server.
                     // \todo put sleep here if server needs time to prepare data
                     i = skt.Receive(receiveBuffer);
+
+                    string msg = Encoding.UTF8.GetString(receiveBuffer);
+                    Display(msg);
+
                     // Display();
                     // \todo update database
                 }
@@ -104,10 +110,13 @@ namespace MacNetConnector_GUI
                 foreach (var message in requestDataMsgsToSend)
                 {
                     i = skt.Send(Encoding.UTF8.GetBytes(message));  // Blocks until send returns.
-
+                    // thread.sleep(100);
                     // Get reply from the server.
                     // \todo put sleep here if server needs time to prepare data
                     i = skt.Receive(receiveBuffer);
+                    string msg = Encoding.UTF8.GetString(receiveBuffer);
+                    Display(msg);
+
                     // Display();
                     // \todo update database
                 }

@@ -13,7 +13,7 @@ namespace MacNetConnector_GUI
 {
     public partial class Form1 : Form
     {
-        const int MaxModules = 2; //5;
+        const int MaxModules = 1;  //2; //5;
         FlowLayoutPanel[] panels;
         McNetModule[] modules;
         string[] ips;
